@@ -1,0 +1,34 @@
+#container
+{
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    background-color: gray;
+    color: azure;
+    text-align: center;
+    padding: 15px;
+}
+
+#nav
+{
+    float: left;
+}
+
+#content
+{
+    float: left;
+}
+
+#ad
+{
+    float: left;
+}
+
+#footer
+{
+    clear: both;
+}
