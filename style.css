@@ -1,14 +1,15 @@
 #container
 {
-    width: 1000;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    background-color: red;
 }
 
 #logo
 {
     background-color: gray;
-    color: azure;
+    color: rgb(238, 238, 238);
     text-align: center;
     padding: 15px;
 }
@@ -16,19 +17,39 @@
 #nav
 {
     float: left;
+    padding: 20px;
+    width: 120px;
+    min-height: 590px;
+    background-color: azure;
+    color: rgb(64, 139, 224);
+    font-weight: bold;
 }
 
 #content
 {
     float: left;
+    background-color: rgb(205, 221, 231);
+    width: 600px;
+    padding: 30px;
+    text-align: justify;
+    min-height: 570px;
 }
 
 #ad
 {
     float: left;
+    width: 160px;
+    padding: 10px;
+    min-height: 610px;
+    background-color: rgb(186, 229, 248);
 }
 
 #footer
 {
     clear: both;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    background-color: cornflowerblue;
+    color: azure;
 }
